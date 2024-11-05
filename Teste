@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Leilão de Imóveis Caixa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0070c0;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #004080;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #0070c0;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curso de Leilão de Imóveis Caixa</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="content" id="sobre">
+        <h2>Sobre o Curso</h2>
+        <p>Este curso oferece uma visão abrangente sobre como participar de leilões de imóveis da Caixa Econômica Federal.</p>
+    </div>
+    <div class="content" id="agenda">
+        <h2>Agenda</h2>
+        <p>Confira as datas e horários dos próximos leilões.</p>
+    </div>
+    <div class="content" id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para mais informações.</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Curso de Leilão de Imóveis Caixa. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
